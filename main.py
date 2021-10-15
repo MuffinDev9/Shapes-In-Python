@@ -1,3 +1,4 @@
+# Asks You What Shape You Want
 def Shape():
   print("What Shape Do You Want? ")
   shapes = input("Square, Triangle, Circle ")
@@ -9,6 +10,7 @@ def Shape():
     Circle()
 
 
+# Prints A Triangle
 def Triangle():
   print("    /\\")
   print("   /  \\")
@@ -17,6 +19,7 @@ def Triangle():
   print("/________\\")
 
 
+# Prints A Square
 def Square():
   print(" ______ ")
   print("|      |")
@@ -24,6 +27,7 @@ def Square():
   print("|______|")
 
 
+# Prints The Letter O, Bevause  I Can't Make A Big Circle
 def Circle():
   print("O")
 
